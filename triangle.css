@@ -13,6 +13,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 20px;
+
 }
 .head {
   position: absolute;
@@ -22,7 +23,13 @@ h1 {
 }
 .submit {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, -50%);
+}
+.sides {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80PX;
 }

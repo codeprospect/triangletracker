@@ -7,12 +7,16 @@
     <script src="triangle.js"></script>
   </head>
   <body>
-    <div class="head"><h1>Triangle-Detector</h1></div>
-    <form class="form" action="index.html" method="post">
-        <p>side 1: &nbsp <input type="text" name="triangle" value="" id="sideOne"></p>
-        <p>side 2: &nbsp <input type="text" name="triangle" value="" id="sideTwo"></p>
-        <p>side 3: &nbsp <input type="text" name="triangle" value="" id="sideThree"></p>
-        <p><button type="submit" name="button" onclick="triangleTracker()">FIND OUT</button></p>
+    <fieldset class="form">
+      <legend id="legendary">Triangle Tracker</legend>
+    <form class="sidesset" action="index.html" method="post">
+      <div class="sides">
+        <p>side 1: &nbsp <input type="number" name="triangle" value="" id="sideOne"></p>
+        <p>side 2: &nbsp <input type="number" name="triangle" value="" id="sideTwo"></p>
+        <p>side 3: &nbsp <input type="number" name="triangle" value="" id="sideThree"></p>
+      </div>
     </form>
+    <p><button id="submit" type="submit" name="button" onclick="triangleTracker()">FIND OUT</button></p>
+    </fieldset>
   </body>
 </html>

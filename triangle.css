@@ -1,6 +1,27 @@
 body {
-  background-image: url(back.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(8px);
+  background-color: black;
+}
+h1 {
+  color: white;
+
+}
+.form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+.head {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.submit {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -20%);
 }

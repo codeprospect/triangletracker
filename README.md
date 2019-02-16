@@ -17,8 +17,11 @@ Javascript
 
 ## BDD
 If the user inputs similar lengths the website is supposed to inform the user that it is an equilateral triangle
+
 If the user inputs two similar lengths the website is supposed to inform the user that it is an equilateral triangle
+
 If the user inputs lengths that cannot form a triangle it will tell the user he/she cannot form a triangle
+
 The website can also add up lengths to find out whether the user can form a scalene triangle
 
 ## Support

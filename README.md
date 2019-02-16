@@ -7,12 +7,15 @@ This website assists the user know whether the lengths he/she inputs can form an
 ## Authors information
 
  Waikau Maina(codeprospect)
+ 
  Fluent in HTML, CSS and Javascript.
 
 
 ## Technologies Used
 HTML
+
 CSS
+
 Javascript
 
 ## BDD

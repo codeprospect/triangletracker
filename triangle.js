@@ -7,6 +7,7 @@ function triangleTracker() {
 
   if (side[0] + side[1] <= side[2] || side[0] + side[2] <= side[1] || side[2] + side[1] <= side[0]) {
     alert("this cannot form a triangle");
+    answer.innerhtml = 'this cannot form a triangle'
   }else if (side[0] === side[1] && side[0] === side[2]) {
     alert("equilateral triangle");
   } else if (side[0] === side[1] || side[0] === side[2] || side[1] === side[2]) {

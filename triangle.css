@@ -21,15 +21,17 @@ h1 {
   left: 50%;
   transform: translate(-50%, -20%);
 }
-.submit {
-  position: absolute;
+#submit {
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(20%, -50%);
 }
 .sides {
   padding-top: 50px;
   padding-bottom: 40px;
   padding-left: 80px;
   padding-right: 80PX;
+}
+#reset {
+  top: 20%;
+  transform: translate(200%, -50%);
 }
